@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <h1 style="display: flex;justify-content: center;">DARK MODE</h1>
+
+            <div class="subdiv">
+                <button class="btnFadeIn">Dark mode 1</button>
+                <p class="p1">This Mode has balck background and white color</p>
+                <button class="btnFadeIn1">Dark mode 2</button>
+                <p class="p2">This Mode has blue background and white color</p>
+                <button class="btnFadeIn2">Dark mode 3</button>
+                <p class="p3">This Mode has yellow background and white color</p>
+                <button class="btnFadeIn3">Dark mode 4</button>
+                <p class="p4">This Mode has red background and white color</p>
+            </div>
+        </div>
+    </header>
+    <main class="container-main">
+        <section>
+            <div class="baking xyz">
+                <div class="container">
+                    <h2>section-1</h2>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="baking-1 xyz">
+                <div class="container-1">
+                    <h2>section-2</h2>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="baking-2 xyz">
+                <div class="container-2">
+                    <h2>section-3</h2>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="baking-3 xyz">
+                <div class="container-3">
+                    <h2>section-4</h2>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="baking-4 xyz">
+                <div class="container-4">
+                    <h2>section-5</h2>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer1 xyz">
+                <div class="copy">
+
+                    <h5 style="font-size: 20px;">© Copyright iPortfolio All Rights Reserved</h5>
+                    <p style="font-size: 18px;padding-top: 10px;">Designed by BootstrapMade</p>
+                </div>
+            </div>
+
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- CSS script  -->
+    <script>
+        $("body").css({ backgroundColor: "white", color: "black" })
+    </script>
+
+    <!-- jQuery script  -->
+    <script>
+        $(document).ready(function () {
+
+
+            $(".btnFadeIn").click(function () {
+                $(".p1").fadeOut(1000);
+                $(".xyz").css({ backgroundColor: "black", color: "white",border:"3px solid white" })
+            })
+            $(".btnFadeIn1").click(function () {
+                $(".p2").fadeToggle(1000);
+                $(".xyz").css({backgroundColor: "blue" ,color:"green",border:"3px solid white"})
+            })
+            $(".btnFadeIn2").click(function () {
+                $(".p3").fadeToggle(1000);
+                
+                $(".xyz").css({backgroundColor: "yellow" ,color:"blue" ,border:"3px solid black"  })
+            })
+            $(".btnFadeIn3").click(function () {
+                $(".p4").fadeToggle(1000);
+                $(".xyz").css({backgroundColor: "red" ,color:"black",border:"3px solid yellow" })
+            })
+
+
+
+
+        })
+    </script>
+
+</body>
+
+</html>

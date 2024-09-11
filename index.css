@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    border: 1px solid black;
+    background-color: maroon;
+    height: 100vh;
+    width: 15%;
+    position: fixed;
+}
+.container-main{
+    border: 1px solid black;
+    padding: 0 0;
+    max-width: 85%;
+    margin-left: 15%;
+}
+.baking{
+    border: 1px solid black;
+    height: 100vh;
+}
+.baking-1{
+    border: 1px solid black;
+    height: 100vh;
+}
+.baking-2{
+    border: 1px solid black;
+    height: 100vh;
+}
+.baking-3{
+    border: 1px solid black;
+    height: 100vh;
+}
+.baking-4{
+    border: 1px solid black;
+    height: 100vh;
+}
+.footer1{
+    border: 1px solid black;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subdiv{
+    width: 100%;
+    height: 30%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.subdiv button{
+    height: 30%;
+}
